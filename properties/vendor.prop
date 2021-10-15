@@ -51,7 +51,6 @@ persist.vendor.bt.aac_frm_ctl.enabled=true
 vendor.audio.spkr_prot.tx.sampling_rate=48000
 
 # Audio Feature
-vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.anc_headset.enable=true
 vendor.audio.feature.battery_listener.enable=false
@@ -97,10 +96,8 @@ vendor.audio.feature.snd_mon.enable=true
 # Bluetooth & FM
 bt.max.hfpclient.connections=1
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
-persist.bluetooth.bluetooth_audio_hal.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac-aptxadaptive
 persist.vendor.qcom.bluetooth.aac_frm_ctl.enabled=true
-persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 persist.vendor.qcom.bluetooth.enable.splita2dp=true
 persist.vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.qcom.bluetooth.scram.enabled=false
